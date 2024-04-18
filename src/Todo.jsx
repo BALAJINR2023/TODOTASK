@@ -72,6 +72,7 @@ const handleDeleteTodo = (id) => {
 
   return (
     <>
+    <div className='bor'>
       <div className='title'>MY TODO</div>
       <form>
         <div className='flexbox'>
@@ -99,7 +100,7 @@ const handleDeleteTodo = (id) => {
         <option value='Completed'>Completed</option>
       </select>
       </div>
-      
+      </div>
 
       <div className='title'>My Todos</div>
       <div className='newcard'>
