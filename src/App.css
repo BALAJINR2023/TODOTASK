@@ -1,0 +1,101 @@
+* {
+   margin: 0px;
+  padding: 0px;
+  }
+.title{
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  color:#04aa6d;
+  text-align: center;
+}
+.formcnt{
+  width: 500px;
+  height: 50px;
+  padding-left: 10px;
+}
+.button{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.flexbox{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  gap:20px;
+}
+@media only screen and (max-width: 1024px) {
+  .flexbox{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .formcnt{
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+  }
+}
+.newcard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: #04aa6d;
+  width: 22rem;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+.btns{   
+  width: 240px;
+  margin-top: 10px;
+}
+.filtername{
+font-size: large;
+font-weight: 500;
+text-transform: uppercase;
+text-align: center;
+}
+.filteropt{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.sltcol{
+  background-color: #04aa6d;
+  color: white;
+  width: 200px;
+  padding: 10px;
+}
+.tname{
+  font-size: 20px;
+  font-weight: 500;
+  color: bisque;
+}
+.tdes{
+  font-size: 20px;
+  font-weight: 500;
+  color: bisque;
+}
+.tst{
+  font-size: 20px;
+  font-weight: 500;
+  color: bisque;
+}
+.tsst{
+  background-color: #aa2e04;
+  color: white;
+}
+.st{
+  border: 2px solid black;
+  background-color: #aa2e04;
+}
